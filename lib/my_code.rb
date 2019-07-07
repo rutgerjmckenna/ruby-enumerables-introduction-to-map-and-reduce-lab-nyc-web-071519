@@ -27,7 +27,7 @@ end
 def reduce_to_all_true(source_array)
   i = 0 
   while i < source_array.length
-  if i != true
+  if i = false
     return true
   else
     return true
