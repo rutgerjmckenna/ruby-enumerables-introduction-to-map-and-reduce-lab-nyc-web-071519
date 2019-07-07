@@ -39,8 +39,10 @@ end
 def reduce_to_any_true(source_array)
   i = 0 
    while i < source_array.length 
-   if i != true 
+   if source_array.include?(true)
      return true 
+   else
+     return false
    end
  end
 end
