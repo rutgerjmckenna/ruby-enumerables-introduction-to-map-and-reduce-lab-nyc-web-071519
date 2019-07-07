@@ -28,9 +28,9 @@ def reduce_to_all_true(source_array)
   i = 0 
   while i < source_array.length
   if i = false || nil 
-    return be_falsy
+    return falsey
   else
-    return be_falsy
+    return falsey
   end
   i += 1 
 end
